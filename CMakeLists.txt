@@ -17,3 +17,5 @@ add_executable(vri-slam
     )
 
 target_link_libraries(vri-slam lt_api ${OpenCV_LIBS})
+
+install(TARGETS vri-slam DESTINATION bin)
